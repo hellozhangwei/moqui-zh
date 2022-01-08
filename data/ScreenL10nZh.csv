@@ -956,6 +956,7 @@ zh,Find Category,分查询类
 zh,Find Customer,客户查询
 zh,Find Duplicates,查重
 zh,Find Entries,查询分录
+zh,Find Expense Invoice,费用查询
 zh,Find Facility,设施查询
 zh,Find Feature,特征查询
 zh,Find Feature Group,特征组查询
@@ -974,6 +975,7 @@ zh,Find Product,产品查询
 zh,Find Product Store,店铺查询
 zh,Find Production Runs,生产订单查询
 zh,Find Project,项目查询
+zh,Find Report,报表查询
 zh,Find Request,审批查询
 zh,Find Shipment,运单查询
 zh,Find Shipments,运单查询
@@ -1357,6 +1359,7 @@ zh,Mayotte,马约特岛
 zh,Memo,备忘录
 zh,Merge From ${partyId},从${partyId}合并
 zh,Message,消息
+zh,Message List,消息列表
 zh,Message Remote,远端消息
 zh,Message Remotes,远端消息
 zh,Message Types,消息类型
@@ -1405,10 +1408,13 @@ zh,Move to Existing Container,移动到现有容器
 zh,Move to New Container,移动到新容器
 zh,Mozambique,莫桑比克
 zh,My Account,个人中心
+zh,My Calendar,我的日历
 zh,My Milestones,我的里程碑
 zh,My Open Requests,我的未完审批
 zh,My Open Tasks,我的未完任务
 zh,My Projects,我的项目
+zh,My Requests,我的申请
+zh,My Tasks,我的任务
 zh,MyAccountTitle,个人中心
 zh,Myanmar,缅甸
 zh,"NOTE: Invoice level stats (total, pre-paid, paid, etc) are not available by Product and will show as having no data",注意：发票级别统计数据（总计、预付、已付等）不适用于产品，将显示为无数据.
@@ -1563,6 +1569,7 @@ zh,Not all packages have Tracking Codes,不是所有的包裹都有追踪码
 zh,"Not looking for child directory at [${relativePath}] under space root page [${location}] because exists, isFile, etc are not supported","因不支持 exists, isFile等等，未进行在根页面[${location}]下的目录[${relativePath}]查找子目录"
 zh,"Not looking for child file at [${relativePath}] under space root page [${location}] because exists, isFile, etc are not supported","因不支持 exists, isFile,等等，未进行在根页面[${location}]下的目录[${relativePath}]查找子文件"
 zh,Not yet placed,还未下定
+zh,NOTE: Promotions are applied in the order of the Sequence Num. Higher value promotions should have lower sequence numbers.,注意：促销规则按序号的顺序应用。 较高价值的促销规则应具有较小的列号。
 zh,Notes,备注
 zh,Notifications,通知
 zh,Notified,通知
@@ -2089,6 +2096,7 @@ zh,Replacement Product,换货
 zh,Reply,回复
 zh,Report Builder,报表设计器
 zh,Report List,报表查询
+zh,Report Viewer,报表查看器
 zh,Reporter,记者
 zh,Reports,报表
 zh,ReportsTitle,报表
@@ -2427,6 +2435,7 @@ zh,Stores,店铺
 zh,Sub Period Type,子期间类型
 zh,Subject,主题
 zh,Submit,提交
+zh,Submit Button,提交按钮
 zh,Subscriber,订户
 zh,Subsidiary,子公司
 zh,Successful,成功
