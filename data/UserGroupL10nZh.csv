@@ -1,0 +1,11 @@
+moqui.basic.LocalizedMessage,seed
+locale,original,localized
+zh,POPC Accounting,POPC财务
+zh,POPC Catalog and Content,POPC品类与内容
+zh,POPC Purchasing,POPC采购
+zh,POPC Purchasing Supervisors,POPC采购经理
+zh,POPC Sales,POPC销售
+zh,POPC Sales Supervisors,POPC销售经理
+zh,POPC Warehouse,POPC仓库
+zh,POPC Warehouse Clerical - Org Ltd,POPC仓库文员
+zh,POPC Warehouse General - Org Ltd,POPC仓库一般
