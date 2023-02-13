@@ -133,6 +133,7 @@ zh,Add Package,添加包装箱
 zh,Add Page,添加页面
 zh,Add Parent Account,添加
 zh,Add Part,添加拆单
+zh,Add Part to Shipment,添加拆单到运单
 zh,Add Party,添加当事人
 zh,Add Payment,添加付款单
 zh,Add Payment Gateway,添加支付网关
@@ -1043,6 +1044,7 @@ zh,Gateway CMD ID,网关CMD ID
 zh,Gateway Capture,网关捕获
 zh,Gateway Code,网关代码
 zh,Gateway Config,网关配置
+zh,Gateway Refund,网关退款
 zh,Gateway Responses,网关响应
 zh,Gateway Release Auth,网关发布验证
 zh,Gateway Type,网关类型
@@ -1852,7 +1854,7 @@ zh,Pitcairn,皮特凯恩
 zh,Place,下定
 zh,Place Order Anyway,仍然下定
 zh,Place Warnings,警告下定
-zh,Placed,下定时间
+zh,Placed,已下定
 zh,Placed Date,下定日期
 zh,Planned Maintenance,计划的维护
 zh,Please select a Facility,请选择一个设施
@@ -2042,6 +2044,7 @@ zh,Record Credit Memo,记录贷项凭证
 zh,Record Time,记录时间
 zh,Recur Schedule,循环周期
 zh,Recurring,循环
+zh,Rel. Type,关系类型
 zh,Release Date Time,释放时间
 zh,Release Now,立即释放
 zh,Last Ordered Date,上一次订购日期
