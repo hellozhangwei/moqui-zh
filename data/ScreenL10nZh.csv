@@ -1029,6 +1029,7 @@ zh,Full Search,全文检索
 zh,Full search string: ${queryString?:''},全部查询字符串：${queryString?:''}
 zh,GL Account,总账科目
 zh,GL Accounts,总账科目
+zh,Gl Account Tree,科目树
 zh,GL Journals,总账日记账
 zh,GL Transactions,总账凭证
 zh,GLJournalsTitle,总账日记账
