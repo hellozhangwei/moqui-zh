@@ -64,7 +64,7 @@ zh,Manually Frozen,人工冻结
 zh,Morgue,坏损
 zh,Negative Pending Replenishment,负待补货
 zh,Not Applicable,不适用
-zh,Not Reconciled,不和解
+zh,Not Reconciled,未对账
 zh,Not Sent,未发送
 zh,Not Started,没有开始
 zh,Offered,已提供
@@ -74,7 +74,7 @@ zh,Opportunity,机会
 zh,Ordered,已订购
 zh,Other Error,其他错误
 zh,Packed,已打包
-zh,Partly Reconciled,部分和解
+zh,Partly Reconciled,部分对账
 zh,Payment Received,已到付款
 zh,Payment Sent,已付款
 zh,Pending,待定中
@@ -95,7 +95,7 @@ zh,Quote Proposed by Vendor,供应商报价
 zh,Quote Requested by Customer,客户询价
 zh,Ready,准备好
 zh,Received,已收到
-zh,Reconciled,已和解
+zh,Reconciled,已对账
 zh,Referred,已被引用
 zh,Rejected,已拒绝
 zh,Rejected by Vendor,被供应商拒绝
