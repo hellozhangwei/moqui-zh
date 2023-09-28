@@ -2222,6 +2222,7 @@ zh,SCA Code,SCA代码
 zh,SMTP Host is empty for EmailServer [${emailServer.emailServerId}],邮件服务器EmailServer [${emailServer.emailServerId}]设置中的SMTP主机不能为空
 zh,Snapshots,快照
 zh,SQL Runner,SQL运行器
+zh,SQL Script Runner,SQL运行器
 zh,Saint Kitts And Nevis,圣基茨和尼维斯
 zh,Saint Lucia,圣卢西亚
 zh,Saint Vincent And The Grenadines,圣文森特和格林纳丁斯
@@ -2494,6 +2495,7 @@ zh,TX ID,凭证ID
 zh,TX Type,凭证类型
 zh,Taiwan,台湾省
 zh,Tajikistan,塔吉克斯坦
+zh,Table Stats,表统计
 zh,"Tanzania, United Republic Of",坦桑尼亚联合共和国
 zh,Tarpits (Use Velocity Limits),捕获(使用速度限制)
 zh,Tarpit Locks (Velocity Limits Reached),捕获锁定(达到速度限制)
