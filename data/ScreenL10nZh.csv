@@ -396,6 +396,7 @@ zh,Billing Zip,邮编
 zh,Bin Start,堆栈开始时间
 zh,Birth,生日
 zh,Birth Date,生日
+zh,Birthday,生日
 zh,Black,黑
 zh,Blog Posts,博客文章
 zh,Blogs,博客
@@ -582,6 +583,7 @@ zh,Country of Origin,源产地
 zh,Country/State,国家/省
 zh,Create Account,新账户
 zh,Create All Variants,创建全部变体
+zh,Create and Post Reverse Transaction,创建并过账冲销凭证
 zh,Create Artifact Group,创建构建组
 zh,Create App Instance,创建应用实例
 zh,Create Bank Account,新建银行账号
@@ -610,6 +612,7 @@ zh,Create Refund,创建退款
 zh,Create Refund Payment,创建退款单
 zh,Create Return,创建退货单
 zh,Create Return Shipment,创建退货运单
+zh,Create Reverse Transaction (don't post),创建冲销凭证
 zh,Create Sales Order,创建销售订单
 zh,Create Shipment,创建运单
 zh,Create Space,创建空间
@@ -720,6 +723,7 @@ zh,Days Since Receipt,自收货的天数
 zh,Days To Ship,发货天数
 zh,Days Since Last Track,自上一次追踪的天数
 zh,Days Since Packed,自打包以来的天数
+zh,Dbt Cdt,借 贷
 zh,Debits,借
 zh,Decline,拒绝
 zh,Default Amount,默认数量
@@ -845,6 +849,7 @@ zh,Entity Sync,实体同步
 zh,Entity Tools,实体工具
 zh,Entities,实体
 zh,Entry,登记
+zh,Entry Acct Type,凭证类型
 zh,Entry Date,创建日期
 zh,Equals,等于
 zh,Equatorial Guinea,赤道几内亚
@@ -940,6 +945,7 @@ zh,Files,文件
 zh,Files only available for payment methods owned by an Internal Organization,文件只对内部组织的支付方法可用
 zh,Filter,过滤
 zh,Filter By,过滤
+zh,Fin Acct TX,金融账户的交易
 zh,Financial Accounts,金融账户
 zh,Financial Account TX,金融账户凭证
 zh,Financial Acct Reasons,财务会计原因
@@ -1077,6 +1083,7 @@ zh,Greece,希腊
 zh,Greenland,格陵兰
 zh,Grenada,格林纳达
 zh,Grey,灰
+zh,Groovy Shell,Groovy脚本
 zh,Gross Weight,毛重
 zh,Group ID,组ID
 zh,Group Type,组用类型
@@ -1170,6 +1177,7 @@ zh,Interval Meter,间隔读数
 zh,Interval Quantity,间隔数量
 zh,Interval Reading,间隔读数
 zh,Interval UOM,间隔单位
+zh,Invc Itm,开票条目
 zh,Inventory Asset,库存资产
 zh,Inventory Asset List,库存列表
 zh,Inventory Available,库存情况
@@ -1212,6 +1220,7 @@ zh,Iraq,伊拉克
 zh,Ireland,爱尔兰
 zh,Is Adjust,是否调整
 zh,Is Gift,礼物
+zh,Is Posted,已过账
 zh,Israel,以色列
 zh,Issuance,发行
 zh,Issue & Pack,发货与打包
@@ -1670,6 +1679,8 @@ zh,Org,组织
 zh,Org Settings,组织设置
 zh,Organization Name,组织名称
 zh,Organizer,组织者
+zh,Orig Currency Amt,原始货币金额
+zh,Orig. Currency,原币种
 zh,Orig. ETA,原始预估
 zh,Origin Address,原地址
 zh,Origin Facility,发货仓
@@ -1860,6 +1871,7 @@ zh,Placed Date,下定日期
 zh,Planned Maintenance,计划的维护
 zh,Please select a Facility,请选择一个设施
 zh,Please select a report,请选择一个报表
+zh,Pmnt Appl,管理付款单
 zh,Pmt Ref,付款单参考
 zh,Poland,波兰
 zh,Pool,池
@@ -2185,6 +2197,8 @@ zh,Reunion,团圆
 zh,Rev,版本
 zh,Rev By,被冲销
 zh,Rev Of,冲销
+zh,Reverse By,🈶由冲销
+zh,Reverse Of,被冲销
 zh,Role,角色
 zh,Role Type,角色类型
 zh,Role Type ID,角色类型ID
@@ -2425,6 +2439,7 @@ zh,Statement PDF,对账单PDF
 zh,Status,状态
 zh,Status:,状态:
 zh,Status Flow,状态流
+zh,Status Flows,状态流
 zh,Status History,状态历史
 zh,Status ID,状态ID
 zh,Status by Receipt,状态按接收
@@ -2574,6 +2589,7 @@ zh,Ukraine,乌克兰
 zh,Unapply,撤销应用
 zh,Un-apply,撤销应用
 zh,Un-approve,撤销批准
+zh,Un-post Transaction,撤销过账
 zh,Unapplied,未核销
 zh,Unapplied Incoming Payments,未核销的收入款
 zh,Unapplied Outgoing Payments,未核销的支出款
@@ -2601,6 +2617,7 @@ zh,Update Purpose,更新用途
 zh,Update Quantity,修改数量
 zh,Update Rates,更新单价
 zh,Update Shipment,更新运单
+zh,Update Transaction,修改凭证
 zh,Update Time Entry,更新工时记录
 zh,Update User,更新用户
 zh,Update to Current,更新到当前
@@ -2670,6 +2687,8 @@ zh,Visit,访问
 zh,Visit List,访问列表
 zh,Visitor,游客
 zh,Visits,访问
+zh,Voucher Ref,凭证参考
+zh,Voucher Date,凭证日期
 zh,Void Payment and Invoices,取消付款与账单应用
 zh,WH/Line,仓库/产线
 zh,WH ATP,仓库可用
