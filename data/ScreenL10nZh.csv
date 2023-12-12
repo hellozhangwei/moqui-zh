@@ -201,6 +201,7 @@ zh,Albania,阿尔巴尼亚
 zh,Algeria,阿尔及利亚
 zh,All Asset Issuances,全部资产出库
 zh,All Asset Receipts,全部的资产入库
+zh,All Entities,全部实体
 zh,All Incoming Payments,全部收入款
 zh,All Incoming Shipments except Return Shipments,除退货外的所有进货货件
 zh,All Issuances,全部出库
@@ -485,6 +486,7 @@ zh,Check Data,检查数据
 zh,Check Num,检查数量
 zh,Check PDF,支票PDF
 zh,Check Reservations,检查预留
+zh,Check/Update All Tables,检查/更新全部表
 zh,Check/Update Table,检查/更新表
 zh,Checks,支票
 zh,Checks only available for payment methods owned by an Internal Organization,支票只对内部组织的支付方法可用
@@ -603,6 +605,8 @@ zh,Create Credit Card,新建信用卡
 zh,Create Customer Return,创建客户退货
 zh,Create Expense Invoice,创建费用账单
 zh,Create First Period,创建第一个期间
+zh,Create FKs,创建外键
+zh,Create Indexes,创建索引
 zh,Create Invoice,创建账单
 zh,Create Lot,创建批次
 zh,Create Milestone,创建里程碑
@@ -794,6 +798,7 @@ zh,Dominican Republic,多明尼加共和国
 zh,Download,下载
 zh,Drag fields to the desired column or do not display,拖放列调整顺序，或拖到不显示。
 zh,Drop Shipment List,直运出库单列表
+zh,Drop FKs,删除外键
 zh,Due,截止日期
 zh,Due:,截止日期
 zh,Due Date,截止日期
@@ -864,6 +869,7 @@ zh,Entity Find,实体查询
 zh,Entity Filter Sets,实体过滤集合
 zh,"Entity Group: ${entityNode.attribute('group-name') ?: '(default)'}","实体组: ${entityNode.attribute('group-name') ?: '(default)'}"
 zh,Entity List,实体列表
+zh,Entity Name,实体名称
 zh,Entity Sync,实体同步
 zh,Entity Tools,实体工具
 zh,Entities,实体
@@ -907,6 +913,7 @@ zh,Example,样例
 zh,Example Feature,样例特征
 zh,Exclude Not in Pick Loc,不包括不在拣货位置的
 zh,Exclude On Picklist,不包括在拣货单的中
+zh,Exclude View Entities,除去视图实体
 zh,Executive,管理人员
 zh,Existing Invoice,存在的账单
 zh,Expectation,期望
@@ -1328,6 +1335,7 @@ zh,Line Wrap?,自动换行？
 zh,Link,链接
 zh,List,列表
 zh,Lithuania,立陶宛
+zh,Liquibase Init XML,导出Liquibase文件（XML）
 zh,Loc Type,位置类型
 zh,Locale,区域
 zh,Localize,本地化
@@ -1387,6 +1395,7 @@ zh,Markup Order Shipping Price,标记订单运费
 zh,Markup Shipment Ship Labels,标记运单标签
 zh,Marshall Islands,马绍尔群岛
 zh,Martinique,马提尼克
+zh,Master Entities,主实体
 zh,Matches,匹配
 zh,"Matches whole words, use the asterisk (*) wildcard to match partial words; use field:term to search a specific field",匹配整个单词，使用星号（*）通配符匹配部分单词； 使用 field:term 搜索特定字段
 zh,Mauritania,毛里塔尼亚
@@ -2719,6 +2728,7 @@ zh,View Charts,查看图表
 zh,View Document,查看文档
 zh,View Entity? ${entityDefinition.isViewEntity},视图实体? ${entityDefinition.isViewEntity}
 zh,View Old,旧联系方式
+zh,View Option,查看选项
 zh,View Pages,查看页面
 zh,View Space,查看空间
 zh,View Wiki Page,查看维基页面
