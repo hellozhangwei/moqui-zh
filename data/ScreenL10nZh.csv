@@ -339,6 +339,7 @@ zh,Attachments,附件
 zh,Attendee,参加者
 zh,Attention,注意
 zh,Attn Name,经办人名字
+zh,Audit,审计
 zh,Audit Log,审计日志
 zh,Australia,澳大利亚
 zh,Austria,奥地利
@@ -423,6 +424,7 @@ zh,Budget (h),预算小时
 zh,Budget Details,预算详情
 zh,Budgets,预算
 zh,BudgetsTitle,预算
+zh,Built on Moqui ${ec.factory.moquiVersion},基于Moqui${ec.factory.moquiVersion}构件
 zh,Bulgaria,保加利亚
 zh,Bulk Checks,批量检查
 zh,Bulk Cost Update,批量更新成本
@@ -431,7 +433,9 @@ zh,Burkina Faso,布基纳法索
 zh,Burundi,布隆迪
 zh,Business Analyst,业务分析师
 zh,Buyer,买方
+zh,By Data Types,通过数据类型
 zh,CSV,CSV
+zh,CSV Text,CSV文本
 zh,Cache,缓存
 zh,Cache List,缓存列表
 zh,Cache Mgmt,缓存管理
@@ -477,9 +481,11 @@ zh,Change,改变
 zh,Change Password,修改密码
 zh,Change Reason,修改原因
 zh,Change status to ${statusTransition.description}?,修改状态到【${statusTransition.description}】?
+zh,Check Data,检查数据
 zh,Check Num,检查数量
 zh,Check PDF,支票PDF
 zh,Check Reservations,检查预留
+zh,Check/Update Table,检查/更新表
 zh,Checks,支票
 zh,Checks only available for payment methods owned by an Internal Organization,支票只对内部组织的支付方法可用
 zh,Checks PDF,检查PDF
@@ -499,6 +505,9 @@ zh,Class,类
 zh,Class Type,分类
 zh,Classification,类型
 zh,Classifications,类型
+zh,Clear,清除
+zh,Clear All,清除全部
+zh,Clear All Artifact,清除全部构件
 zh,Clear Current Find,清空当前查找
 zh,Clear Find,重置条件
 zh,Clear Parameters,清空参数
@@ -543,6 +552,7 @@ zh,Complete/Closed - ${((pstats.taskCountByStatusMap.WeComplete?:0) as BigDecima
 zh,Completed Purchase Orders,已完成的采购订单
 zh,Completed Sales Orders,已完成的销售订单
 zh,Completed Tasks,完成的任务
+zh,Components,组件
 zh,Computer Systems Design Services,计算机系统设计服务
 zh,Computer Training,电脑培训
 zh,Condition failed for transition [${location}],not running actions or redirecting
@@ -599,6 +609,7 @@ zh,Create Milestone,创建里程碑
 zh,Create Nest,创建下一个
 zh,Create Next,创建下一个
 zh,Create new order based on this one?,是要基于此订单创建一个新订单吗？
+zh,Create Only? ${entityInfo.createOnly},只创建? ${entityInfo.createOnly}
 zh,Create Page,创建页面
 zh,Create Payment,创建付款单
 zh,Create Physical Inventory,创建库存盘点
@@ -726,6 +737,7 @@ zh,Days Since Packed,自打包以来的天数
 zh,Dbt Cdt,借 贷
 zh,Debits,借
 zh,Decline,拒绝
+zh,Default,默认值
 zh,Default Amount,默认数量
 zh,"Default Asset Owner (${ownerPartyId}) different from Facility owner (${destinationFacility.ownerPartyId}), if not consignment inventory change now",默认资产所有者 (${ownerPartyId}) 不同于设施所有者 (${destinationFacility.ownerPartyId})，如果不是寄售，库存会立即更改。
 zh,Default Assignee,默认受让人
@@ -747,6 +759,7 @@ zh,Delivery Date,送达日期
 zh,Denmark,丹麦
 zh,Department,部门
 zh,Departments,部门
+zh,Dependents,依赖
 zh,Depreciation History,折旧历史
 zh,Desc,降序
 zh,Dest Facility,目的设施
@@ -785,6 +798,7 @@ zh,Due,截止日期
 zh,Due:,截止日期
 zh,Due Date,截止日期
 zh,Due Date:,截止日期:
+zh,Dummy FKs?,伪外键?
 zh,"Duplicates found (by ${party.hasDuplicates == 'Y' ? 'address/name, phone/name, ' : ''}identification, email, or birth date and name)",发现重复记录，请检查地址/姓名，电话/姓名，唯一标识，邮件，生日和姓名。
 zh,Dups,重复
 zh,East Timor,东帝汶
@@ -836,6 +850,7 @@ zh,Employees,员工
 zh,Employer,员工
 zh,Empty,为空
 zh,Enable Account,启用账号
+zh,Encrypt,加密
 zh,End Date,结束日期
 zh,Ending,结束
 zh,Ending Balance,期末余额
@@ -843,8 +858,12 @@ zh,Enter Setting,新建
 zh,Enter Store Setting,新建店铺配置
 zh,"Enter values for 2 of the 3 below, or just Hours or From and Thru will be set to now",填写3个中的2个，或者只填写小时数开始日期和结束日期会被设置成当前时间。
 zh,Enterprise,企业
+zh,"Entity Audit Default: ${entityNode.attribute('enable-audit-log') ?: 'false'}","实体审计默认值: ${entityNode.attribute('enable-audit-log') ?: 'false'}"
 zh,Entity Data Sync,实体数据同步
+zh,Entity Find,实体查询
 zh,Entity Filter Sets,实体过滤集合
+zh,"Entity Group: ${entityNode.attribute('group-name') ?: '(default)'}","实体组: ${entityNode.attribute('group-name') ?: '(default)'}"
+zh,Entity List,实体列表
 zh,Entity Sync,实体同步
 zh,Entity Tools,实体工具
 zh,Entities,实体
@@ -945,6 +964,7 @@ zh,Files,文件
 zh,Files only available for payment methods owned by an Internal Organization,文件只对内部组织的支付方法可用
 zh,Filter,过滤
 zh,Filter By,过滤
+zh,Filter Regexp,过滤正则表达式
 zh,Fin Acct TX,金融账户的交易
 zh,Financial Accounts,金融账户
 zh,Financial Account TX,金融账户凭证
@@ -1112,6 +1132,7 @@ zh,Height,高度
 zh,Heilongjiang,黑龙江省
 zh,Henan,河南省
 zh,Hidden,隐藏
+zh,Hide No Action Files?,隐藏无反应文件？
 zh,Hits,点击数
 zh,Hold,暂停
 zh,Holy See (vatican City State),罗马教廷（梵蒂冈城国）
@@ -1141,6 +1162,8 @@ zh,"If Quantity is less that current then asset records will be adjusted down ol
 zh,Ignore Case,忽略大小写
 zh,Immediate?,立即？
 zh,Import,导入
+zh,Import Data - Create Only,导入数据 - 只创建
+zh,Import Data - Create or Update,导入数据 - 创建或更新
 zh,In Planning - ${pstats.taskCountByStatusMap.WeInPlanning?:0},计划中 - ${pstats.taskCountByStatusMap.WeInPlanning?:0}
 zh,In Progress - ${pstats.taskCountByStatusMap.WeInProgress?:0},进行中 - ${pstats.taskCountByStatusMap.WeInProgress?:0}
 zh,"In-Process, Finalized, Sent, Acknowledged, Payment Received",处理中、已完成、已发送、已确认、已到款
@@ -1220,6 +1243,7 @@ zh,Iraq,伊拉克
 zh,Ireland,爱尔兰
 zh,Is Adjust,是否调整
 zh,Is Gift,礼物
+zh,Is PK,是否主键
 zh,Is Posted,已过账
 zh,Israel,以色列
 zh,Issuance,发行
@@ -1245,6 +1269,7 @@ zh,Items,条目
 zh,"Items have been packed/issued, these will be un-packed and returned to inventory",条目已被打包或发出，这些将被拆包并退回库存
 zh,"Items have been received, all receipt quantities will be set to zero",条目已收到，收到的数量将被设置为0
 zh,Jrnl,日记
+zh,JSON Text,JSON文本
 zh,"JSON-RPC error with no message, code [${responseMap.error?.code}]","JSON-RPC无消息错误, 代码[${responseMap.error?.code}]"
 zh,JSON-RPC response was not a object/Map for service [${serviceName ?: method}]: ${jsonObj},服务[${serviceName ?: method}]的JSON-RPC的返回不是object或者Map: ${jsonObj}
 zh,Jamaica,牙买加
@@ -1261,6 +1286,7 @@ zh,Journal Name,日记账名称
 zh,Kazakhstan,哈萨克斯坦
 zh,Kenya,肯尼亚
 zh,Key,键
+zh,Key Map,映射键
 zh,Kiribati,基里巴斯
 zh,"Korea, Democratic People's Republic Of",朝鲜民主主义人民共和国
 zh,"Korea, Republic Of",大韩民国
@@ -1304,6 +1330,7 @@ zh,List,列表
 zh,Lithuania,立陶宛
 zh,Loc Type,位置类型
 zh,Locale,区域
+zh,Localize,本地化
 zh,Localization,本地化
 zh,Location,位置
 zh,Location Asset,库位资产
@@ -1441,6 +1468,8 @@ zh,Name Prefix,名称前缀
 zh,Namibia,纳米比亚
 zh,Nauru,瑙鲁
 zh,Need Qty,需要数量
+zh,Needs Audit Log? ${entityInfo.needsAuditLog},需要审计? ${entityInfo.needsAuditLog}
+zh,Needs Encrypt? ${entityInfo.needsEncrypt},需要加密? ${entityInfo.needsEncrypt}
 zh,Needs Validation,需要校验
 zh,Nepal,尼泊尔
 zh,Net Book Value,帐面净值
@@ -1891,6 +1920,7 @@ zh,Posted Credits,贷记
 zh,Pre-Paid Percent,预付发票百分比
 zh,Preferences,偏好
 zh,Previous,前
+zh,Pretty Name,亮名
 zh,Pri,优先级
 zh,Price,价格
 zh,Price History,价格历史
@@ -2060,10 +2090,12 @@ zh,Recurring,循环
 zh,Rel. Type,关系类型
 zh,Release Date Time,释放时间
 zh,Release Now,立即释放
+zh,Related Entity Name,关联实体
 zh,Last Ordered Date,上一次订购日期
 zh,Auto Delete,自动删除
 zh,Auto Invoice,自动创建发票
 zh,Auto Screen,自动屏幕
+zh,Auto Screen Find,自动屏幕查询
 zh,Auto Screens,自动屏幕
 zh,Last Ordered Date will be updated over time as recurring Order Clones are created.,随着重复克隆订单的创建，上次订购日期将随着时间的推移而更新。
 zh,IPs Allowed,允许IP
@@ -2151,6 +2183,7 @@ zh,Reset & Email Password,重置并发送密码
 zh,Resolution,解决
 zh,Resolution:,解决:
 zh,Resource Finder,资源管理器
+zh,Resource Location,资源位置
 zh,Resp Code,响应代码
 zh,Response,响应
 zh,Response Amount,响应数量
@@ -2211,6 +2244,7 @@ zh,Root Page Override,根页面覆盖
 zh,Routing #,路由号码
 zh,Run,运行
 zh,Run Date,运行日期
+zh,Run GC,运行GC
 zh,Run ID,运行ID
 zh,Run Pick PDF,生产拣货PDF
 zh,Run Products,生产产品
@@ -2402,6 +2436,8 @@ zh,Shipping Instructions,运输指示
 zh,Shipping Options,配送选项
 zh,Shipping Phone,电话
 zh,ShippingTitle,拣货管理
+zh,Short Alias,短别名
+zh,"Short Alias: ${entityInfo.shortAlias ?: 'N/A'}","短别名: ${entityInfo.shortAlias ?: 'N/A'}"
 zh,Show Details,显示详情
 zh,Show Invoiced,显示已开票的
 zh,Show Reverses,显示反转
@@ -2412,6 +2448,7 @@ zh,Sign in,登录
 zh,Sign Req.,签名类型
 zh,Signature Required Type,需要签名类型
 zh,Singapore,新加坡
+zh,Site Map,网站地图
 zh,Size UOM,容量单位
 zh,Size/UOM,容量单位
 zh,Slow Hits,低速的点击
@@ -2493,8 +2530,10 @@ zh,TX Date,凭证日期
 zh,TX Entries,账目
 zh,TX ID,凭证ID
 zh,TX Type,凭证类型
+zh,Types,类型
 zh,Taiwan,台湾省
 zh,Tajikistan,塔吉克斯坦
+zh,"Table Name: ${entityInfo.fullTableName ?: 'N/A'}","表名: ${entityInfo.fullTableName ?: 'N/A'}"
 zh,Table Stats,表统计
 zh,"Tanzania, United Republic Of",坦桑尼亚联合共和国
 zh,Tarpits (Use Velocity Limits),捕获(使用速度限制)
@@ -2534,6 +2573,7 @@ zh,Time Entries,工时记录
 zh,Time Period,会计期间
 zh,Time Periods,会计期间
 zh,Time Zone,时区
+zh,Timeout Seconds,过期时间（秒）
 zh,TimePeriodTitle,会计期间
 zh,Title,标题
 zh,To,到
@@ -2629,6 +2669,7 @@ zh,Upload File,上传文件
 zh,Uruguay,乌拉圭
 zh,Use Find Options to search for orders and when you have the set you want use the form to create picklists.,使用查询选项查找订单，然后创建拣货单。
 zh,Use the Asset screen after create for depreciation and other settings.,创建后使用资产详情页面进行折旧和其他设置。
+zh,Use Try Insert?,尝试插入？
 zh,Useful Years,可用年数
 zh,User,用户
 zh,User ${principalCollection.primaryPrincipal} is not in role ${roleName},用户${principalCollection.primaryPrincipal}不属于${roleName}角色
@@ -2676,6 +2717,7 @@ zh,Venezuela,委内瑞拉
 zh,Viet Nam,越南
 zh,View Charts,查看图表
 zh,View Document,查看文档
+zh,View Entity? ${entityDefinition.isViewEntity},视图实体? ${entityDefinition.isViewEntity}
 zh,View Old,旧联系方式
 zh,View Pages,查看页面
 zh,View Space,查看空间
@@ -2733,6 +2775,7 @@ zh,Wrote ${curValuesWritten} records to file ${filename},已把${curValuesWritte
 zh,Wrote ${valuesWritten} documents to file ${filename},已把${valuesWritten}文档写进了文件${filename}
 zh,Wrote ${valuesWritten} records to file ${filename},已把${valuesWritten}记录写进了文件${filename}
 zh,XLS Export,XLS倒出
+zh,XML Text,XML文本
 zh,Xinjiang,新疆维吾尔自治区
 zh,Xizang,西藏自治区
 zh,Year,年
