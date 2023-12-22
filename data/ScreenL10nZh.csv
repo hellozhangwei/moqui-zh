@@ -471,6 +471,7 @@ zh,CatalogTitle,品类管理
 zh,Categories,分类
 zh,Category,分类
 zh,Category ID,分类ID
+zh,Category Identification,分类ID
 zh,Category List,分类列表
 zh,Category Tree,分类树
 zh,Category Type,分类类型
@@ -1166,6 +1167,7 @@ zh,Hungary,匈牙利
 zh,ID Type,ID类型
 zh,ID Value,ID值
 zh,Iceland,冰岛
+zh,Identity Type,标识类型
 zh,Identification,唯一标识
 zh,"If Quantity is less that current then asset records will be adjusted down oldest first, if greater then adjusted up newest first.",如果数量小于当前，则向下调整最早的资产记录。如果大于，则向上调整最新的资产记录。
 zh,Ignore Case,忽略大小写
@@ -1497,6 +1499,7 @@ zh,New Agreement,新合同
 zh,New Budget,新预算
 zh,New Caledonia,新喀里多尼亚
 zh,New Category,新分类
+zh,New Category Identification,新建分类ID
 zh,New Child Task,新子任务
 zh,New Consumable Shipment,新领用出库单
 zh,New Contact,新建
