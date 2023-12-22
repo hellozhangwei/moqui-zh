@@ -158,10 +158,12 @@ zh,Add Single Use Codes,添加单独用户代码
 zh,Add SMS Factor,添加短信因子
 zh,Add Store,添加店铺
 zh,Add Store Category,添加店铺分类
+zh,Add Store Data Document,添加店铺数据文档
 zh,Add Survey Field,添加调查字段
 zh,Add Task,添加任务
 zh,Add Task Assignment,添加任务指派
 zh,Add Team,添加任务指派
+zh,Add Time,添加工时
 zh,Add Time Entry,添加工时记录
 zh,Add To Feature Group,添加到特征组
 zh,Add To Product,添加到产品
@@ -356,11 +358,16 @@ zh,Authorizations,授权
 zh,Authz Type,授权类型
 zh,Authz Service Name,授权服务名称
 zh,Auto Approve Delay,自动批准推迟
+zh,Auto Delete,自动删除
+zh,Auto Invoice,自动创建发票
 zh,Auto Payments Term,付款条款
 zh,Auto Res.,自动预约
 zh,Auto Reservation,自动预约
 zh,Auto Set,自动设置
 zh,Auto set status from Shipment statuses?,根据运单状态自动设置拣货单状态？
+zh,Auto Screen,自动屏幕
+zh,Auto Screen Find,自动屏幕查询
+zh,Auto Screens,自动屏幕
 zh,Auto Update Rates,自动更新单价
 zh,Available Balance,可用余额
 zh,Avg,平均
@@ -531,6 +538,7 @@ zh,Clone Product,克隆产品
 zh,Clone Project,克隆项目
 zh,Clone Run,克隆运行
 zh,Clone Space,克隆空间
+zh,Clone Store,克隆店铺
 zh,Clone Task,克隆任务
 zh,Close,关闭
 zh,Close Date,关闭日期
@@ -656,6 +664,7 @@ zh,Current Depreciation,当前折旧
 zh,Current Location,当前位置
 zh,Current PDF,当前PDF
 zh,Current Purchase Orders,当前采购订单
+zh,Current Rem Hours,当前剩余小时
 zh,Current Sales Orders,当前销售订单
 zh,Current Search Conditions,当前查找条件
 zh,Current Search String,当前检索条件
@@ -1051,6 +1060,7 @@ zh,From Date,开始日期
 zh,From Factor ID,开始因子ID
 zh,From ID,开始ID
 zh,From Location,从仓位
+zh,From Name,从名字
 zh,From Party,从
 zh,From Payment Method,从支付方式
 zh,From Pool,源池
@@ -1169,6 +1179,7 @@ zh,ID Value,ID值
 zh,Iceland,冰岛
 zh,Identity Type,标识类型
 zh,Identification,唯一标识
+zh,If Last Ordered Date is empty the next Order Clone will be created with the next batch.,如果上次订购日期为空，则将使用下一批创建下一个订单克隆。
 zh,"If Quantity is less that current then asset records will be adjusted down oldest first, if greater then adjusted up newest first.",如果数量小于当前，则向下调整最早的资产记录。如果大于，则向上调整最新的资产记录。
 zh,Ignore Case,忽略大小写
 zh,Immediate?,立即？
@@ -1249,6 +1260,7 @@ zh,Invoices Total,发票总额
 zh,"Invoices (found ${invoiceIdSet.size()} associated with this shipment) will not be changed, must be cancelled manually",与此运单相关的${invoiceIdSet.size()}个账单不会被修改，需要手动取消。
 zh,Invoices and Payments,账单与付款单
 zh,"Invoices associated with this shipment will be CANCELLED: ${invoiceIdSet.join(', ')}","相关联的账单（${invoiceIdSet.join(', ')}）将被取消！！！"
+zh,IPs Allowed,允许IP
 zh,Iran (islamic Republic Of),伊朗（伊斯兰共和国）
 zh,Iraq,伊拉克
 zh,Ireland,爱尔兰
@@ -1314,6 +1326,8 @@ zh,Last/Next:Diff,前/后:差异
 zh,Last Check Number,上次检查数量
 zh,Last Hit,上次点击
 zh,Last Name,名
+zh,Last Ordered Date,上一次订购日期
+zh,Last Ordered Date will be updated over time as recurring Order Clones are created.,随着重复克隆订单的创建，上次订购日期将随着时间的推移而更新。
 zh,Last Track,最近追踪
 zh,Last Updated,最近更新
 zh,Last Updated:,最近更新:
@@ -1559,6 +1573,7 @@ zh,New Rental Shipment,新租赁出库单
 zh,New Request,新审批
 zh,New Request Item,新审批条目
 zh,New Sales Account,新建客户
+zh,New New Sales Account (Organization Customer),新建公司客户
 zh,New Sales Contact,新建联系人
 zh,New Sales Opportunity,新销售机会
 zh,New Sales Order,新销售订单
@@ -2108,15 +2123,6 @@ zh,Rel. Type,关系类型
 zh,Release Date Time,释放时间
 zh,Release Now,立即释放
 zh,Related Entity Name,关联实体
-zh,Last Ordered Date,上一次订购日期
-zh,Auto Delete,自动删除
-zh,Auto Invoice,自动创建发票
-zh,Auto Screen,自动屏幕
-zh,Auto Screen Find,自动屏幕查询
-zh,Auto Screens,自动屏幕
-zh,Last Ordered Date will be updated over time as recurring Order Clones are created.,随着重复克隆订单的创建，上次订购日期将随着时间的推移而更新。
-zh,IPs Allowed,允许IP
-zh,If Last Ordered Date is empty the next Order Clone will be created with the next batch.,如果上次订购日期为空，则将使用下一批创建下一个订单克隆。
 zh,"To not create the next Order Clone until the scheduled time, set this to now or any time since the last scheduled time.",要在预定时间之前不创建下一个订单克隆，请将其设置为现在或自上次预定时间以来的任何时间。
 zh,Ref,参考
 zh,Ref Num,参考代码
@@ -2503,6 +2509,8 @@ zh,Status: ${workEffort.status?.description ?: statusId},状态: ${workEffort.st
 zh,Stocker,装料工
 zh,Store,店铺
 zh,Store Category Type,店铺分类类型
+zh,Store Data Documents,店铺数据文档
+zh,Store Data Document Type,店铺数据文档类型
 zh,Store Domain,店铺域名
 zh,Stored At,存放
 zh,Stores,店铺
@@ -2589,6 +2597,7 @@ zh,Time,考勤
 zh,Time Entries,工时记录
 zh,Time Period,会计期间
 zh,Time Periods,会计期间
+zh,Time Range,时间范围
 zh,Time Zone,时区
 zh,Timeout Seconds,过期时间（秒）
 zh,TimePeriodTitle,会计期间
@@ -2611,6 +2620,7 @@ zh,Tokelau,托克劳
 zh,Tonga,汤加
 zh,Tools,工具
 zh,"Top Products Ordered (${[d:'Day', w:'Week', M:'Month', q:'Quarter', y:'Year'].get(interval?:'w')} from ${ec.l10n.format(topProductStart, 'dd MMM yyyy')} to ${ec.l10n.format((topProductEnd ? topProductEnd - 1 : null), 'dd MMM yyyy')})","热销产品(${[d:'天', w:'周', M:'月', q:'季度', y:'年'].get(interval?:'w')} from ${ec.l10n.format(topProductStart, 'dd MMM yyyy')} to ${ec.l10n.format((topProductEnd ? topProductEnd - 1 : null), 'dd MMM yyyy')})"
+zh,To ID,到ID
 zh,Topic Subscriptions,订阅主题
 zh,Total,合计
 zh,Total Cost,总销成本
