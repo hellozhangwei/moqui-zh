@@ -2608,6 +2608,7 @@ zh,To Addresses,收件人
 zh,To assign check numbers select a bank account in From Payment Method (in Find Options).,要分配支票编号，请在“从付款方式”（在“查找选项”中）中选择一个银行帐户。
 zh,To Cancel,将取消
 zh,To Container,目的容器
+zh,To clock out now leave Hours and Thru empty; specify Hours or Thru if your clock out time is in the past,现在要打卡下班，请将小时数和结束时间留空。如果您的下班时间已经过去，请指定小时数或结束时间
 zh,To get results an option other than Actual Date and Status is required,需要实际日期和状态或其他查询条件才能得倒结果
 zh,To Location,目的位置
 zh,To Name,收件人
