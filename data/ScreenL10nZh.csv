@@ -126,6 +126,7 @@ zh,Add Note,添加
 zh,Add Orders,添加订单
 zh,Add Organization,添加组织
 zh,Add Origin Address,添加原地址
+zh,Add Other Identification,添加其他ID
 zh,Add Other Item,添加其他条目
 zh,Add Other Maintenance,添加维护记录
 zh,Add Other Role,添加其他角色
@@ -1086,6 +1087,7 @@ zh,Gateways,网关
 zh,General Ledger,总账
 zh,General Tools,一般工具
 zh,Generate PDF,生成PDF文件
+zh,Generate Url Slug,生成Slug
 zh,Georgia,乔治亚州
 zh,Germany,德国
 zh,Get Server Printers,获得服务器打印机
@@ -1388,6 +1390,7 @@ zh,Margin %,边际%
 zh,Margin Amount,边际收益
 zh,Margin Percent,边际收益百分比
 zh,Mark Viewed,标记为已查看
+zh,Market Segment ID,市场细分ID
 zh,MarketingCampaignTitle,市场营销
 zh,Markup %,标记%
 zh,Markup Amt,标记总价
@@ -1730,6 +1733,7 @@ zh,Original Payment,原始付款单
 zh,Original PDF,原始PDF
 zh,Other Computer Related Services,其他计算机相关服务
 zh,Other ID,其他ID
+zh,Other Identification,其他ID
 zh,Other IDs,其他ID
 zh,Other Invc,其他账单
 zh,Other Issuances,其他的出库
@@ -1954,6 +1958,7 @@ zh,Product ID,产品ID
 zh,Product Issued,产品出货数量
 zh,Product List,产品列表
 zh,Product Owner,产品拥有人
+zh,Product Page,产品页面
 zh,Product Quantity,产品数量
 zh,Product Sold,产品已售数量
 zh,Product Store,店铺
