@@ -366,6 +366,7 @@ zh,Auto Reservation,自动预约
 zh,Auto Set,自动设置
 zh,Auto set status from Shipment statuses?,根据运单状态自动设置拣货单状态？
 zh,Auto Screen,自动屏幕
+zh,Auto Screen Entity List,自动屏幕实体列表
 zh,Auto Screen Find,自动屏幕查询
 zh,Auto Screens,自动屏幕
 zh,Auto Update Rates,自动更新单价
@@ -1414,6 +1415,7 @@ zh,Markup Order Shipping Price,标记订单运费
 zh,Markup Shipment Ship Labels,标记运单标签
 zh,Marshall Islands,马绍尔群岛
 zh,Martinique,马提尼克
+zh,Master Entity,主实体
 zh,Master Entities,主实体
 zh,Matches,匹配
 zh,"Matches whole words, use the asterisk (*) wildcard to match partial words; use field:term to search a specific field",匹配整个单词，使用星号（*）通配符匹配部分单词； 使用 field:term 搜索特定字段
@@ -2386,6 +2388,10 @@ zh,Server Host,服务器主机
 zh,Server Port,服务器端口
 zh,Service Job List,服务任务列表
 zh,Service Jobs,服务任务
+zh,Service Load Runner,服务运行器
+zh,Service Name,服务名称
+zh,Service Reference,服务参考
+zh,Service Run,服务运行
 zh,Services,服务
 zh,Set,设置
 zh,Set Assignee,设置指派人
