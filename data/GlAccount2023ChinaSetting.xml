@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="install">
+
+    <mantle.party.Party partyId="ChinaSmallAndMediumSettings" partyTypeEnumId="PtyOrganization"/>
+    <mantle.party.Organization organizationName="中小企业块准则" partyId="ChinaSmallAndMediumSettings"/>
+
+    <mantle.ledger.transaction.GlJournal glJournalId="ChinaSmallAndMediumSettingsError" glJournalName="错误日记账"
+                                         organizationPartyId="ChinaSmallAndMediumSettings" glJournalTypeEnumId="GLJRNL_ERROR" isPosted="N"/>
+
+    <mantle.ledger.config.PartyAcctgPreference organizationPartyId="ChinaSmallAndMediumSettings" baseCurrencyUomId="CNY"
+                                               cogsMethodEnumId="CogsActualCost" errorGlJournalId="ChinaSmallAndMediumSettingsError"
+                                               invoiceIdPrefix="" invoiceSequenceEnumId="InvSqStandard" orderIdPrefix="" orderSequenceEnumId="OrdSqStandard"
+                                               fiscalYearStartMonth="1" fiscalYearStartDay="1"
+                                               hourlyTimePeriodTypeId="PayrollBiWeek" salaryTimePeriodTypeId="PayrollSemiMonth"
+                                               taxClassificationEnumId="TxcCCorp" taxFormEnumId="TxfUsIrs1120"
+                                               employerClassEnumId="EmclsUsIrsRegularOther" payrollTaxFormEnumId="PtxfUsIrs941" settlementTermId="Net30"/>
+
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1001" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1002" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1003" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1011" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1012" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1021" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1031" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1101" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1111" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1121" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1122" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1123" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1124" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1131" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1132" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1201" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1211" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1212" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1221" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1231" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1301" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1302" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1303" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1304" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1311" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1321" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1401" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1402" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1403" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1404" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1405" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1406" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1407" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1408" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1411" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1421" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1431" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1441" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1451" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1461" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1471" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1501" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1502" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1503" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1511" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1512" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1521" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1531" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1532" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1541" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1601" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1602" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1603" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1604" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1605" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1606" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1611" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1621" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1622" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1623" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1631" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1632" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1701" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1702" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1703" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1711" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1801" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1811" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1821" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="1901" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2001" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2002" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2003" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2004" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2011" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2012" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2021" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2101" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2111" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2201" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2202" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2203" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2211" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.01" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.02" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.03" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.04" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.05" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.06" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.07" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.08" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.01.09" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.02" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.03" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.04" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.05" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.06" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.07" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.08" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.09" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.1" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.11" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2221.12" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2231" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2232" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2241" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2251" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2261" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2311" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2312" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2313" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2314" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2401" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2501" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2502" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2601" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2602" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2611" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2621" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2701" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2702" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2711" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2801" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="2901" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="3001" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="3002" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="3101" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="3201" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="3202" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="4001" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="4002" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="4101" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="4102" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="4103" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="4104" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="4201" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="5001" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="5101" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="5201" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="5301" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="5401" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="5402" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="5403" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6001" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6011" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6021" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6031" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6041" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6051" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6061" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6101" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6111" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6201" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6202" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6203" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6301" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6401" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6402" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6403" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6411" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6421" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6501" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6502" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6511" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6521" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6531" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6541" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6542" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6601" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6602" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6603" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6604" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6701" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6711" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6801" organizationPartyId="ChinaSmallAndMediumSettings"/>
+    <mantle.ledger.account.GlAccountOrganization glAccountId="6901" organizationPartyId="ChinaSmallAndMediumSettings"/>
+
+</entity-facade-xml>
